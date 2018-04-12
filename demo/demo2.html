@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>在web中使用svg</title>
+</head>
+
+<body>
+  <!-- 使用img -->
+  <img src="./assets/bowling.svg">
+
+  <!-- 作为背景 -->
+  <div style="width: 200px;height: 200px;background-image: url(./assets/bowling.svg);"></div>
+
+  <!-- HTML嵌套svg元素 -->
+  <svg>
+    <circle cx="40" cy="40" r="24" style="stroke:#006600; fill:#00cc00" />
+  </svg>
+</body>
+
+</html>
